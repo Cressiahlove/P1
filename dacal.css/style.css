@@ -169,3 +169,182 @@ tbody tr th{
     font-size: 14px;
     color: #000000;
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    /* left-container */
+    body{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+    }
+    .side-nav{
+        z-index: 2;
+        display: flex;
+        height: 10rem;
+        width: 100%;
+        position: relative;
+    }
+    .side-nav p{
+        position: absolute;
+        top: 80%;
+        left: 0;
+    }
+
+    .menucnt{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .menucnt a{
+        padding: 1rem;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: #000000;
+        display: block;
+    }
+    .menucnt a:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .top-nav{
+        position: relative;
+        display: none;
+
+    }
+
+    .top-nav .nav-1 .search{
+       display: none;
+
+    }
+
+    .search i{
+        position: absolute;
+        left: 10rem;
+        top: 3rem;
+        margin: 0;
+        padding: 0;
+        color: black;
+    }
+    .top-nav .nav-2{
+        display: none;
+    }
+
+    .center-con{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #F2B8C6;
+    }
+    .content{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+        font-family: 'Josefin Sans', sans-serif;
+        overflow: auto;
+        background-color: #F2B8C6;
+    }
+    
+ 
+    
+}
+@media screen and (min-width: 0px) and (max-width: 480px){
+    body{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+    }
+    .side-nav{
+        z-index: 2;
+        display: flex;
+        height: 10rem;
+        width: 100%;
+        position: relative;
+    }
+    .side-nav p{
+        position: absolute;
+        top: 80%;
+        left: 0;
+    }
+
+    .menucnt{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .menucnt a{
+        padding: 1rem;
+        text-decoration: none;
+        font-size: 1rem;
+        color: #000000;
+        display: block;
+    }
+    .menucnt a:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .top-nav{
+        position: relative;
+        display: none;
+
+    }
+
+    .top-nav .nav-1 .search{
+       display: none;
+
+    }
+ 
+    .search i{
+        position: absolute;
+        left: 10rem;
+        top: 3rem;
+        margin: 0;
+        padding: 0;
+        color: black;
+    }
+    .top-nav .nav-2{
+        display: none;
+    }
+
+    .center-con{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #F2B8C6;
+    }
+
+    .center-con .search1{
+        width: 80%;
+
+    }
+    .content{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+        font-family: 'Josefin Sans', sans-serif;
+        overflow: auto;
+        background-color: #F2B8C6;
+    }
+   
+} 
